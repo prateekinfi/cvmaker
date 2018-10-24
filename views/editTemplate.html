@@ -1,0 +1,55 @@
+<div class="container-fluid">
+    <div class="row justify-content-center ">
+        <!-- tried for better look but flickers -->
+        <!-- <div class="handleSidebar"></div>  -->
+        
+        <div class="col-3 layout-sidebar border-right noPrint" id="chooseTemplate">
+            <!-- <div class="col-12 layout-card mb-4 p-0  text-center p-0" onclick="setLayout('template1')">
+                <div class="sidebar-template ">
+                    <img src="./images/templates/template1.png" alt="template1">
+                </div>
+            </div> -->
+            <div class="col-12 layout-card mb-4 p-0  text-center " onclick="setLayout('template2')">
+                <div class=" sidebar-template">
+                    <img src="./images/templates/template2.png" alt="template2">
+                </div>
+            </div>
+            <div class="col-12 layout-card mb-4 p-0  text-center " onclick="setLayout('template3')">
+                <div class=" sidebar-template">
+                    <img src="./images/templates/template3.png" alt="template3">
+                </div>
+            </div>
+            <div class="col-12 layout-card mb-4 p-0  text-center " onclick="setLayout('template4')">
+                <div class=" sidebar-template">
+                    <img src="./images/templates/template4.png" alt="template4">
+                </div>
+            </div>
+            <div class="col-12 layout-card mb-4 p-0 text-center " onclick="setLayout('template5')">
+                <div class=" sidebar-template">
+                    <img src="./images/templates/template5.png" alt="template5">
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-9 py-5 print position-relative">
+            <div class="row">
+                <div class="col-12 " id="loadTemplate">
+                        
+                </div>
+                <div class="col-12 text-right pr-5 pt-5 noPrint" id="checkoutBtn" >
+                    <button class="cvmaker-btn btn btn-light rounded mb-3" id='checkout' type="button" onclick="showCheckout()">Checkout $0<sup>99</sup></button>
+                </div>
+                <div class="col-12 text-right pr-5 pt-5 d-none noPrint" id="printBtn">
+                        <button class="cvmaker-btn btn btn-light rounded " type="button" onclick="printPdf()">Print</button>
+                </div>
+            </div>
+            <div class="watermark d-print-block text-center" id="watermark">
+                    <p class="h1">CV<span>MAKER</span>
+                    </p>
+                    <label>https://cvmaker.tk</label>
+                    
+                    
+                </div>
+        </div>
+        
+    </div>
+</div>

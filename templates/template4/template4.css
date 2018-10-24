@@ -1,0 +1,183 @@
+.template4 .heading{
+    position: relative;
+}
+
+.fa-plus-circle, .fa-minus-circle {
+	color: #3AAFA9;
+	vertical-align: middle;
+	font-size: 1.5rem;
+}
+
+.fa-minus-circle {
+	color: red;
+}
+
+.template4 .hello{
+    background-color: #FFD043;
+    color:white;
+    position: absolute;
+    top:30%;
+    left: 10%;
+    font-size:4rem; 
+    
+}
+.template4 .heading span{
+    background-color: white;
+    color:#FFD043;
+    position: absolute;
+    top:54%;
+    left: 10%;
+}
+.template4 .heading span h1{
+    display: inline;
+    font-size:3rem; 
+}
+.template4 h3{
+    color:#FFD043;
+    font-family: 'Montserrat', sans-serif;   
+    font-weight: bold; 
+    font-size: 38px;
+    
+}
+.template4 .footerRow{
+    background-color: #FFD043;
+    
+}
+
+
+
+.experience-heading {
+    position: relative;
+ }
+
+.experience-heading #add {
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+	display: none;
+}
+.experience-heading:hover #add {
+	display: block;
+}
+
+.experience-content div {
+	position: relative;
+}
+
+ 
+
+.experience-content div span#remove {
+	position: absolute;
+	right: 20px;
+	top: 2px;
+	display: none;
+}
+
+.experience-content div:hover span#remove {
+	display: block;
+}
+ 
+
+.experience-content div ul li {
+	position: relative;
+}
+
+.experience-content div ul li span .fa-minus-circle {
+	position: absolute;
+	right: 0;
+	bottom: 10px;
+	display: none;
+}
+
+.experience-content div ul li span .fa-plus-circle {
+	position: absolute;
+	right: 15px;
+	bottom: 10px;
+	display: none;
+}
+
+.experience-content div ul li:hover span i {
+	display: block;
+}
+
+
+
+.skills-content li {
+	
+	position: relative;
+}
+
+.skills-content li span {
+	display: none;
+    position: relative;
+    float: right;
+	display: none;
+}
+
+.skills-content li:hover span {
+	display: block;
+}
+
+.awards-heading {
+	position: relative;
+}
+
+.awards-heading span {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	display: none;
+}
+
+.awards-heading:hover span{
+	display: block;
+}
+
+.awards-content ul {
+	margin-top: 10px;
+	list-style: none;
+}
+
+.awards-content ul li{
+	position: relative;
+}
+
+.awards-content ul li span{
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	display: none;
+}
+ .skills-heading span {
+	position: absolute;
+	right: 12px;
+	bottom: 10px;
+	display: none;
+}
+ .skills-heading:hover span {
+	display: block;
+}
+.awards-content ul li:hover span {
+	display: block;
+}
+.template4 .awards-content ul {
+    padding-left:0;
+}
+.skills-content ul{
+    list-style: none;
+    padding-left: 0;
+}
+.skills-content ul li{
+    font-weight: bold;
+    font-size: 17px;
+}
+.experience-content .designation, .awards-content .organization , .skills-content ul li,.heading #name{
+    text-transform: uppercase;
+}
+.footerRow span {
+    font-size: 20px;
+}
+.display-picture img:hover{
+	cursor: pointer;
+	opacity: 0.7;
+}

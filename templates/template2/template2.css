@@ -1,0 +1,227 @@
+.layout2{
+    font-family: 'Montserrat Light', arial;
+  }
+
+.layout2 .top{
+    background-color: #C5D3D6;    
+ }
+
+.layout2 h3{
+    color:#818A8C;
+    font-family: 'Montserrat', sans-serif;    
+}
+
+.layout2 .right{
+    background-color: #E8E8E8;    
+}
+
+.layout2 img {
+    border-radius: 50%;
+    height:300px; 
+    width:300px;
+}
+
+.layout2 .heading h1{
+	text-transform: uppercase;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+}
+ 
+.layout2 .subheading h3{
+	text-transform: uppercase;	
+    color:#7C8587;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+}
+.layout2 .left ul{
+list-style: none;
+padding:0;
+ }
+.experience-content,.education-content,.skills-content,.about-content{
+   color:#484848;
+}
+
+ 
+ .layout2 .skills-content li {
+	
+	position: relative;
+}
+
+.layout2 .skills-content li span {
+	display: none;
+    position: relative;
+    float: right;
+	display: none;
+}
+
+.layout2 .skills-content li:hover span {
+	display: block;
+}
+.layout2 .education-heading {
+	position: relative;
+}
+
+.layout2 .education-heading span {
+	position: absolute;
+	left: 100%;
+	bottom: 10px;
+	display: none;
+}
+.layout2 .education-heading:hover span {
+	display: block;
+}
+
+
+.experience-heading h3 {
+	color : #184525;
+	display: inline-block;
+}
+
+.experience-heading {
+	position: relative;
+}
+
+.experience-heading #add {
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+	display: none;
+}
+
+.experience-heading:hover #add {
+	display: block;
+}
+
+.skills-heading span {
+	position: absolute;
+	left: 100%;
+	bottom: 10px;
+	display: none;
+}
+
+.skills-heading:hover span {
+	display: block;
+}
+.education-content ul {
+	margin-top: 10px;
+ }
+
+.education-content ul li {
+	position: relative;
+	margin-bottom:1rem;
+}
+
+.education-content ul li span {
+	position: absolute;
+	left: 100%;
+	bottom: 10px;
+	display: none;
+}
+
+.education-content ul li:hover span {
+	display: block;
+}
+
+
+
+.experience-content div {
+	position: relative;
+}
+
+.experience-content div span#add {
+	position: absolute;
+	right: 70px;
+	top: 30px;
+	display: none;
+}
+
+.experience-content div span#remove {
+	position: absolute;
+	right: 20px;
+	top: 2px;
+	display: none;
+}
+
+.experience-content div:hover span#remove {
+	display: block;
+}
+
+.experience-content div:hover span#add {
+	display: block;
+}
+
+.experience-content div ul li {
+	position: relative;
+}
+
+.experience-content div ul li span .fa-minus-circle {
+	position: absolute;
+	right: 0;
+	bottom: 10px;
+	display: none;
+}
+
+.experience-content div ul li span .fa-plus-circle {
+	position: absolute;
+	left: 100%;
+	bottom: 10px;
+	display: none;
+}
+
+.experience-content div ul li:hover span i {
+	display: block;
+}
+
+.experience-content h5{
+    display: inline;
+}
+
+.experience-content #work_duration{
+    display: block;    
+}
+
+
+
+.layout2 .education-content .university{
+    display: inline;
+ }
+
+
+ .layout2 #experience .work_duration{
+ letter-spacing: 2px;
+ }
+
+
+
+.fa-plus-circle, .fa-minus-circle {
+	color: #3AAFA9;
+	vertical-align: middle;
+	font-size: 1.5rem;
+}
+
+.fa-minus-circle {
+	color: red;
+}
+
+.skills-heading::after ,.about-heading::after,.education-heading::after,#experience::after ,.contact-heading::after{
+    border-bottom: 7px solid #818A8C;
+     content: "";
+     bottom: 3;
+    left: 19px;
+     position: absolute;
+    right: 0;
+    width: 8%;
+}
+.about-heading::after,.education-heading::after,.contact-heading::after{
+    border-bottom: 7px solid #818A8C;
+     content: "";
+     bottom: 3;
+    left: 19px;
+     position: absolute;
+    right: 0;
+    width: 18%;
+}
+.display-picture img:hover{
+	cursor: pointer;
+	opacity: 0.7;
+}

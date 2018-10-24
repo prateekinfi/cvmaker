@@ -1,0 +1,193 @@
+body{ padding: 0;
+  
+}
+.template3 .display-picture{
+    position: relative;
+}
+
+
+.template3 .layout3-left-top {
+    position: absolute;
+    top:-6%;
+    left:-13%;
+    line-height: 44px;
+    text-transform: uppercase;
+    font-size: 2.7rem;
+  word-break:initial;
+  font-weight: bold;
+  color:#FF5D6A;
+  font-family:'Glacial Indifference';
+  width:300px; 
+}
+
+.template3 .layout3-right-top {
+    position: absolute;
+    top:-3%;
+    right:-10%;
+    text-transform: uppercase;
+    word-break:initial;
+    font-weight: bold;
+    color: #FF5D6A;
+        font-family:'Glacial Indifference';
+    width:145px; 
+
+}
+.template3 .experience-content .row {
+	position: relative;
+}
+
+.template3 .experience-content .row span {
+	position: absolute;
+	right: 12px;
+	bottom: 10px;
+	display: none;
+}
+
+.template3 .experience-content .row:hover span {
+	display: block;
+}
+
+.template3 .experience-heading span {
+	position: absolute;
+	right: 12px;
+	bottom: 10px;
+    display: none;
+    
+}
+.template3 .skills-heading span{
+    position: absolute;
+	right: 12px;
+	bottom: 10px;
+    display: none;
+}
+
+.template3 .experience-heading:hover span {
+	display: block;
+}
+.template3 .skills-heading:hover span{
+    display: block;
+}
+
+.template3 .skills-content li {
+	
+	position: relative;
+}
+
+.template3 .skills-content li span {
+	display: none;
+    position: relative;
+    float: right;
+	display: none;
+}
+
+.template3 .experience-content li span {
+	display: none;
+    position: relative;
+    float: right;
+	display: none;
+}
+
+
+
+
+.template3 .skills-content li:hover span {
+	display: block;
+}
+.template3 .contact-content{
+display: inline;
+position: absolute;
+list-style: none;
+position: absolute;
+top:13%;
+left:-6%;
+}
+.template3 .skills-content ul{
+    margin-left:40%;
+    list-style: none;
+    color: black;
+ text-align: left;
+}
+
+.template3 .experience-heading{
+    font-weight: bold;
+    color: #FF5D6A;
+        font-family:'Glacial Indifference';
+}
+.template3 .skills-heading{
+    font-weight: bold;
+    color: #FF5D6A;
+        font-family:'Glacial Indifference';
+}
+
+.template3 #phone_number,.template3 #email
+{
+    display: inline;
+}
+ .template3  .contact-content ul li#social_Link::before{
+ content:"/ ";
+ }
+ .template3 #phone_number,.template3 #email ,.template3 #social_Link {
+     text-transform: uppercase;
+     font-family: 'Glacial Indifference';
+ }
+ .fa-minus-circle {
+	color: red;
+}.fa-plus-circle{
+	color: #3AAFA9;
+	vertical-align: middle;
+	font-size: 1.5rem;
+}
+
+
+.template3 .experience-content li {
+	
+    position: relative;
+}
+
+
+
+.template3 .experience-content li:hover span {
+	display:block;
+}
+
+
+.template3 .experience-content div {
+	position: relative;
+}
+
+.template3 .experience-content div span#add {
+	position: absolute;
+	right: 70px;
+	top: 30px;
+	display: none;
+}
+
+.template3 .experience-content div span#remove {
+	position: absolute;
+	left: calc(100% + 6px);
+	top: 2px;
+	display: none;
+}
+
+.template3 .experience-content div:hover span#remove {
+	display: block;
+}
+
+.template3 .experience-content div:hover span#add {
+	display: block;
+}
+
+.template3 .experience-content div ul li {
+    position: relative;
+}
+
+.template3 .experience-content div ul li span .fa-minus-circle {
+	position: absolute;
+	right:0;
+	bottom: 10px;
+	display: none;
+}
+.display-picture img:hover{
+	cursor: pointer;
+	opacity: 0.7;
+}

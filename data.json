@@ -1,0 +1,83 @@
+{
+	"Unique_ID": {
+		"display-picture":"",
+		"name": "STELLA ARNOLD",
+		"current_designation": "lifestyle expert",
+		"address": "512 Moore Street ,Indigo Valley ,San Diego,California",
+		"email": "timstuart@gmail.com",
+		"phone_number": "9876450312",
+		"social_Link": "@timstuart",
+		"about": "New York based photographer who graduated from New York Academy, a creative photographer who is passionate about black and white photograpgy. Marvin has acquired 5 years of professional photography experience.",
+		"website":"www.mcruz.com",
+		"skills": [
+			"Black and White",
+			" Wedding",
+			"Portraits",
+			"Macro",
+			"Lifestyle"
+		],
+		"experience": [
+			{
+				"designation": " Marketing Assistant",
+				"organization": " 13 Monkeys",
+				"work_duration": "Jun 2019 - Jan-2020",
+				"work_details": [
+					" Maintained and oraganised numerous office files",
+					"Constantly updated the company's contact abd mailing lists ",
+					"Monitored ongoing marketing campaings",
+					"Press coverage"
+				]
+			},
+			{
+				"designation": " Marketing Assistant",
+				"organization": " World Mark",
+				"work_duration": "Jun 2018 - June-2019",
+				"work_details": [
+					" Maintained and oraganised numerous office files",
+					"Constantly updated the company's contact abd mailing lists ",
+					"Monitored ongoing marketing campaings",
+					"Press coverage"
+				]
+			}
+		],
+		"education": [
+			{
+				"university": "San Diego University",
+				"course": "Bachelor In Marketing",
+				"edu_duration": "2016-2020"
+			},
+			{
+				"university": "Helena All Girls Senior High School ",
+				"course": "Fine Arts and Advertising",
+				"edu_duration": "2013-2016"
+			}
+		],
+		"qualifications": [
+			{
+				"year": "2014",
+				"qualification_detail": "Certified Personal Trainer Fitness institute of Newcastle "
+			},
+			{
+				"year": "2013",
+				"qualification_detail": "CPR and First Aid Certification institute of health and wellness "
+			},
+			{
+				"year": "2012",
+				"qualification_detail": "Teacher's Licensure Examination"
+			}
+		],
+		"awards":[
+			{
+				"year":"2017",
+				"award_detail": "Best Fitness Trainer",
+				"organization" : "Anytime Fitness" 
+			},
+			{
+				"year":"2019",
+				"award_detail": "Ranked 10 Graphic Designer",
+				"organization" : "Suiton Design Awards" 
+			}
+
+		]
+	}
+}

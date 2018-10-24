@@ -1,0 +1,292 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+h3{
+	color : #184525;
+ }
+
+.fa-plus-circle, .fa-minus-circle {
+	color: #3AAFA9;
+	vertical-align: middle;
+	font-size: 1.5rem;
+}
+
+.fa-minus-circle {
+	color: red;
+}
+
+.layout5 .heading h1 {
+ 	color : #184525;
+	font-size: 48px;
+	letter-spacing: 5px;
+	border-bottom: 5px solid #184525;
+	margin: 0;
+	font-weight: bolder;
+}
+
+.layout5 .subheading h3 {
+	font-size: 20px;
+	letter-spacing: 5px;
+	color: rgba(0,0,0,.54);
+	font-weight: bold;
+	font-family: 'open sans';
+
+}
+
+.layout5 .contact-content ul {
+	list-style: none;
+}
+
+
+
+.experience-heading h3 {
+	color : #184525;
+	display: inline-block;
+}
+
+.experience-heading {
+	position: relative;
+}
+
+.experience-heading #add {
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+	display: none;
+}
+
+.experience-content div {
+	position: relative;
+}
+
+.experience-content div span#add {
+	position: absolute;
+	right: 70px;
+	top: 30px;
+	display: none;
+}
+
+.experience-content div span#remove {
+	position: absolute;
+	right: 20px;
+	top: 2px;
+	display: none;
+}
+
+.experience-content div:hover span#remove {
+	display: block;
+}
+
+.experience-content div:hover span#add {
+	display: block;
+}
+
+.experience-content div ul li {
+	position: relative;
+}
+
+.experience-content div ul li span .fa-minus-circle {
+	position: absolute;
+	right: 0;
+	bottom: 10px;
+	display: none;
+}
+
+.experience-content div ul li span .fa-plus-circle {
+	position: absolute;
+	right: 15px;
+	bottom: 10px;
+	display: none;
+}
+
+.experience-content div ul li:hover span i {
+	display: block;
+}
+
+.experience-heading:hover #add {
+	display: block;
+}
+
+.qualifications-content .row {
+	position: relative;
+}
+
+.qualifications-content .row span {
+	position: absolute;
+	right: 12px;
+	bottom: 10px;
+	display: none;
+}
+
+.qualifications-content .row:hover span {
+	display: block;
+}
+.qualifications-content .year{
+	white-space: nowrap;
+}
+
+.qualifications-heading span, .skills-heading span {
+	position: absolute;
+	right: 12px;
+	bottom: 10px;
+	display: none;
+}
+
+.qualifications-heading:hover span, .skills-heading:hover span {
+	display: block;
+}
+
+.skills-content li {
+	
+	position: relative;
+}
+
+.skills-content li span {
+	display: none;
+    position: relative;
+    float: right;
+	display: none;
+}
+
+.skills-content li:hover span {
+	display: block;
+}
+
+.awards-heading, .education-heading {
+	position: relative;
+}
+
+.awards-heading span, .education-heading span {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	display: none;
+}
+
+.awards-heading:hover span, .education-heading:hover span {
+	display: block;
+}
+
+.awards-content ul, .education-content ul {
+	margin-top: 10px;
+	list-style: none;
+}
+
+.awards-content ul li, .education-content ul li {
+	position: relative;
+}
+
+.awards-content ul li span, .education-content ul li span {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	display: none;
+}
+
+.awards-content ul li:hover span, .education-content ul li:hover span {
+	display: block;
+}
+
+.heading h1, .subheading h3, .awards-content ul li label, .education-content ul li label, .experience-content div h5 span, .experience-content div h6 span {
+	text-transform: uppercase;
+}
+
+/* .experience-heading h3:hover,
+.experience-content div ul li:hover,
+.qualifications-heading:hover,
+.qualifications-content .row:hover ,
+.skills-heading:hover,
+.skills-content li:hover,
+.education-heading:hover,
+.awards-heading:hover,
+.education-content ul li:hover,
+.awards-content ul li:hover {
+	border: 1px solid #3AAFA9;
+} */
+
+
+ .layout5 ul{
+	padding-left:24px;
+}
+.layout5 .awards-content ul,.layout5 .education-content ul,.layout5 .contact-content ul {
+	padding-left:0;
+
+}
+
+
+
+@media screen and (min-width: 1200px) {}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {}
+
+@media screen and (min-width: 768px) and (max-width:992px) {
+	.layout5 .heading h1 {
+		font-size: 41px;
+		letter-spacing: -0.015rem;
+	}
+	.layout5 .subheading h3, h3{
+		font-size: 16px;
+		letter-spacing: -0.015rem;
+		font-weight: bolder;
+	}
+	.fa-plus-circle, .fa-minus-circle {
+		
+		font-size: 1rem;
+	}
+	h5,h6{
+		font-size: 14px;
+	}
+	.education-content label,.awards-content label{
+		font-size: 13px;
+	}
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+	.layout5 .heading h1 {
+		font-size: 41px;
+		letter-spacing: -0.015rem;
+	}
+	.layout5 .subheading h3, h3{
+		font-size: 16px;
+		letter-spacing: -0.015rem;
+		font-weight: bolder;
+	}
+	.fa-plus-circle, .fa-minus-circle {
+		
+		font-size: 1rem;
+	}
+	h5,h6{
+		font-size: 14px;
+	}
+	.education-content label,.awards-content label{
+		font-size: 13px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	h5,h6{
+		font-size: 12px;
+	}
+	.layout5 .heading h1 {
+		font-size: 20px;
+		letter-spacing: -0.015rem;
+	}
+	.layout5 .subheading h3, h3{
+		font-size: 14px;
+		letter-spacing: -0.015rem;
+		font-weight: bolder;
+	}
+	.fa-plus-circle, .fa-minus-circle {
+		
+		font-size: 1rem;
+	}
+	.education-content label,.awards-content label{
+		font-size: 13px;
+	}
+	
+}

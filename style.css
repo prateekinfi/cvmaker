@@ -1,0 +1,265 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arvo', serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.navbar-brand p {
+    color: #3AAFA9;
+}
+
+.navbar-brand span {
+    color: #4D4D4D
+}
+
+.landing-container{
+    background: url("./images/userDummy/landing.png");
+    background-position: center;
+    padding: 0;
+}
+.landing-jumbotron{
+    background: rgba(0, 0, 0, 0.50);
+    height: calc(100vh - 82px);
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin: 0;
+}
+
+.cvmaker-btn {
+    font-weight: 500;
+    border: 1px solid #3AAFA9;
+    color: #3AAFA9
+}
+
+.cvmaker-btn:hover {
+    color: white;
+    background: #3AAFA9;
+}
+
+.cvmaker-danger-btn {
+    font-weight: 500;
+    border: 1px solid #d43f3a;
+    color: #d9534f
+}
+
+.cvmaker-danger-btn:hover {
+    color: white;
+    background: #d9534f;
+}
+
+.logout {
+    display: none;
+}
+
+.layout-card {
+    cursor: pointer;
+}
+
+.layout-card .template img {
+    width: 50%;
+}
+
+.layout-card .template img:hover {
+    transform: scale(1.2);
+    transition: all 0.5s ease;
+}
+
+.layout-card .sidebar-template img {
+    width: 100%;
+    border: 2px solid #4D4D4D;
+}
+
+.layout-card .sidebar-template img:hover {
+    border: 5px solid #3AAFA9;
+    /* opacity: .8; */
+}
+.cvmaker-border{
+    padding: .375rem .75rem;
+    border: 1px solid #ced4da;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+ul{
+    padding: 0
+}
+
+/* a better look but flicker problem */
+
+/* .handleSidebar{
+    width: 10vh;
+    background: #3AAFA9;
+    margin-right: auto;
+}
+.layout-sidebar, .handleSidebar:hover{
+    display: none;
+}
+
+
+.handleSidebar:hover + .layout-sidebar{
+    display: block;
+
+} */
+
+/* Login CSS */
+.box.social {
+    float:none;
+    /* margin: 0 auto 30px; */
+    text-align: center;
+    justify-content: center;
+    border: 0px;
+}
+.social .circle{
+    background-color: #f8f9fa;
+    color: #FFFFFF;
+    border: 1px solid #3AAFA9;
+    border-radius: 50%;
+    display: inline-block;
+    margin:0 auto;
+    padding: 15px;
+    text-align: center;
+
+}
+.social .circle .fa{
+    font-size: 16px;
+}
+ .social .facebook{
+    background-color: #fff;
+    color: #3AAFA9;
+}
+ .social .google{
+    background-color: #fff;
+    color: #3AAFA9
+}
+
+ .facebook:hover{
+    background-color: #455CA8;
+    border-color: #455CA8;
+    color: #fff
+}
+.google:hover{
+    background-color: #F74933;
+    border-color: #F74933;
+    color: #fff
+}
+.division {
+    float: none;
+    margin: 0 auto 18px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.division .line {
+    border-top: 1px solid #DFDFDF;
+    position: absolute;
+    top: 10px;
+    width: 34%;
+}
+ .division .line.l {
+    left: 0;
+}
+ .division .line.r {
+    right: 0;
+}
+ .division span {
+    color: #424242;
+    font-size: 17px;
+}
+.modal-header,.modal-footer{
+    display: block;
+    border: 0px;
+}
+.modal-title{
+    color: #4D4D4D;
+}
+.modal-footer{
+    padding: 0rem;
+    padding-bottom:1rem;
+}
+
+.link{
+    color: #3AAFA9;
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: none;
+}
+
+.forgotPassword{
+    color: rgb(87, 2, 2);
+}
+.Uname{
+ display: flex;
+ flex:wrap;
+
+}
+.notification {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    display: none;
+}
+.cvmaker-background{
+    background: #3AAFA9
+}
+
+.watermark{
+    position: absolute;
+    top: 450px;
+    z-index: 999;
+    opacity: .3;
+    transform: rotate(-45deg);
+    width: 100%;
+    display: none;
+}
+
+.watermark p {
+    color: #3AAFA9;
+    font-size: 200px;
+}
+
+.watermark span {
+    color: #4D4D4D
+}
+
+.watermark label{
+    font-size: 30px;
+}
+
+#loadTemplate > .pdfview{width: 100%; max-width: 768px;}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .layout-sidebar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .layout-sidebar {
+        display: none;
+    }
+}
+
+@media print {
+    .noPrint {
+        display: none !important;
+    }
+    .print {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+}
+
+@page {
+    size: auto;
+    margin: 0mm;
+}

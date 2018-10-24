@@ -1,0 +1,10 @@
+var LOCALSTORAGE_CVDATA_KEY = "cvmaker-data";
+var USER_ID = "cvmaker-uid";
+var TEMPLATE_ID = "cvmaker-templateId";
+var CV_JSON_DATA = "";
+var USER_CV_DATA = "";
+var DUMMY_DATA_EDIT_STATUS = "cvmaker-dummyStatus";
+var CURRENT_PAGE = "cvmaker-currentPage";
+var EDITOR_LAYOUT_PAGE = "editTemplate.html";
+var AUTH_ACTION_CODE = "cvmaker-actionCode";
+var DP;
